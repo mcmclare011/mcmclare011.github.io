@@ -1,0 +1,246 @@
+body{
+    font-family: 'Jost';
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+br {
+    padding:0;
+ }
+
+ ul, li {
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover { color:grey;}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Abril Fatface';
+    font-size: 16pt;
+    color: black;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+#name_img{
+    max-width: 800px;
+    width:100%
+}
+
+.name_section{
+    background-size:cover;
+    height: 500px;
+    background-image: url('name_back.png');
+    background-repeat:no-repeat;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: #FFFFFF;
+    font-family: 'Jost';
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.school{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color:rgb(240, 240, 240);
+}
+
+#school{
+    background-color:rgb(240, 240, 240);
+}
+
+
+.school_box{
+    border-radius: 30px;
+    border: solid rgb(240, 240, 240);
+    background-color: white;
+    border-width: 7px;
+    height: auto;
+    width: 27%;
+    max-width: 400px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+.school_logo{
+    max-height: 50px;
+    max-width: 150px;
+    padding: 10px;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    height: 70px;
+}
+
+.box_text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.school_title{
+    font-size: 15pt;
+}
+
+.on_img{
+    background-image: url('comp.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#experience{
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+
+.work_box{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-color: light;
+    border-radius: 30px;
+    color: black;
+    width: 90%;
+    max-width: 900px;
+    margin: 15px 0px;
+    min-height: 200px;
+
+}
+.work_logo{
+    object-fit:scale-down;
+    max-width: 150px;
+    padding: 20px;
+}
+
+.work_text{
+    padding: 20px 10px;
+}
+
+.work_box a{
+    vertical-align: middle;
+}
+
+.interests{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.interest_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-between;
+
+}
+
+.interest_img{                     
+    height: 200px;
+    width: 200px;
+    margin: 20px 40px;
+}
+
+.interests_words{
+    max-width: 760px;
+}
+
+.heading{
+    font-family: 'Abril Fatface';
+    color: black;
+    font-size: 28pt;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+@media (max-width: 800px) {
+    .school{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .school_box{
+        width:80%;
+        max-width: 80%;
+    }
+
+    .work_box{
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .interest_row{
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+    }
+
+    .grid{
+        flex-direction: row;
+    }
+
+    .interest_img{ 
+        height: 80%; 
+        width: 80%;                   
+        margin: 5px 5px;
+    }
+
+    .interests_words{
+        padding: 20px;
+    }
+
+
+
+
+
+}
